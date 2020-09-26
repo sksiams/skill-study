@@ -1,0 +1,135 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+*:focus {
+    outline: none!important;
+}
+
+.space-100{height:100px;}
+
+.space-160{height:160px;}
+ 
+a:hover{text-decoration:none!important;}
+
+select:focus{outline:none!important;}
+
+
+
+ /* header area css start from here */
+ 
+
+.header-top{
+	background-image: linear-gradient(80deg,#5f27cd,#D980FA);
+    padding: 1px 0px;
+    overflow: hidden;
+    width: 80%;
+    margin: auto;
+    border-bottom-left-radius:50%;
+    border-bottom-right-radius:50%;
+    box-shadow: 0px 4px 10px #fd79a8;
+	
+}
+ 
+.logo-area{
+	width:15%;
+	margin:auto;
+} 
+
+.logo-area img {
+	height:110px;
+	width:110px;
+}
+
+.login-area{margin:90px 0px;} 
+
+.logn-left{
+	background-image: linear-gradient(47deg,#5f27cd,#D980FA);
+    padding: 50px!important;
+    border-radius: 20px;
+    box-shadow: 2px 2px 6px #fd79a8;;
+}
+
+.logn-left h2{
+	font-size: 30px;
+    color: #ffffff;
+    text-shadow: 0px 0px 3px #ffffff;
+    margin: 35px;
+    text-transform: uppercase;
+    line-height: 48px;
+    text-align: center
+}
+
+.logn-left label{
+    font-size: 25px;
+    color: #ffffff;
+    text-shadow: 0px 0px 3px #ffffff;
+}
+
+ 
+.logn-left button{
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 6px 0px #d67ef9;
+    text-shadow: 0px 0px 3px #ffffff;
+    display: inline-block;
+    border: 1px solid #d67ef975;
+    background: transparent;
+}
+
+.logn-left button:hover{
+	background: #fd79a8;
+    text-shadow: none;
+    color: #fff;
+    transition: .6s;
+    box-shadow: none;
+}
+
+.logn-left a{
+	font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 6px 0px #d67ef9;
+    text-shadow: 0px 0px 3px #ffffff;
+    display: inline-block;
+    border: 1px solid #d67ef975;
+    background: transparent;
+	margin-top:20px;
+}
+
+.logn-left a:hover{
+	background: #fd79a8;
+	text-shadow: none;
+	color: #fff;
+	transition: .6s;
+	box-shadow: none;
+}
+
+
+
+
+
+
+
+.lgn-pic{
+	height: 450px;
+    width: 450px;
+    float: right;
+}
+
+.lgn-pic img{
+	height:100%;
+	width:100%;
+}
+
+
+	
+	
+	
+	
